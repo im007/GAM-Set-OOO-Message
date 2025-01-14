@@ -28,7 +28,7 @@ The CSV file must contain the following columns:
 Example:
 ```csv
 email,name
-user@company.com,John Smith
+johnsmith@company.com,John Smith
 ```
 
 ## Usage
