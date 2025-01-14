@@ -2,6 +2,8 @@
 
 A GUI application that allows you to set customized Out of Office (OOO) messages for multiple users using GAM (Google Apps Manager).
 
+![GAM Set OOO Message Application](README-screenshot.png)
+
 ## Features
 
 - User-friendly graphical interface
@@ -33,9 +35,9 @@ johnsmith@company.com,John Smith
 
 ## Usage
 
-1. Launch the application by running `GAM_set_OOO.py`
+1. Launch the application by running `python3 GAM_set_OOO.py` or `python GAM_set_OOO.py`
 2. Select your CSV file containing user information
-3. Verify or select the GAM installation directory
+3. Verify or select your GAM installation directory
 4. Enter your company settings:
    - Company Name
    - Contact Email
@@ -54,6 +56,6 @@ The following variables can be used in both subject and message:
 
 ## Notes
 
-- The application automatically attempts to detect your GAM installation
+- The application automatically attempts to detect your GAM installation location.
 - All actions are logged in the status window
 - HTML formatting is supported in the message body
